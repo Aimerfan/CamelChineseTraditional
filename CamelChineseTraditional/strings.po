@@ -7508,7 +7508,7 @@ msgstr "過濾：{0}"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.DESC"
 msgid ""
 "Meter Valves let an exact amount of gas pass through before shutting off."
-msgstr "計量閥在關閉前可以讓一定量的氣體通過。"
+msgstr "截流閥在關閉前可以讓一定量的氣體通過。"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.EFFECT"
@@ -7533,7 +7533,7 @@ msgstr "重設計量"
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.NAME"
 msgid "<link=\"GASLIMITVALVE\">Gas Meter Valve</link>"
-msgstr "<link=\"GASLIMITVALVE\">氣體計量閥</link>"
+msgstr "<link=\"GASLIMITVALVE\">氣體截流閥</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_ACTIVE"
@@ -9585,7 +9585,7 @@ msgstr "<link=\"LIQUIDHEATER\">熱水器</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC"
 msgid ""
 "Meter Valves let an exact amount of liquid pass through before shutting off."
-msgstr "計量閥在關閉前可以讓一定量的氣體通過。"
+msgstr "截流閥在關閉前可以讓一定量的氣體通過。"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT"
@@ -9610,7 +9610,7 @@ msgstr "重設計量"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.NAME"
 msgid "<link=\"LIQUIDLIMITVALVE\">Liquid Meter Valve</link>"
-msgstr "<link=\"LIQUIDLIMITVALVE\">液體計量閥</link>"
+msgstr "<link=\"LIQUIDLIMITVALVE\">液體截流閥</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_ACTIVE"
@@ -15363,7 +15363,7 @@ msgstr "重設計量"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.NAME"
 msgid "<link=\"SOLIDLIMITVALVE\">Conveyor Meter</link>"
-msgstr "<link=\"SOLIDLIMITVALVE\">輸送帶計量閥</link>"
+msgstr "<link=\"SOLIDLIMITVALVE\">輸送帶截流閥</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.OUTPUT_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.OUTPUT_PORT_ACTIVE"
@@ -71679,7 +71679,7 @@ msgid ""
 msgstr ""
 "•<indent=20px><b><link=\"OXYGENMASKSTATION\">氧氣面罩工廠</link></b> 已加入，"
 "來幫助遊戲早期的探索。</indent>\n"
-"•<indent=20px>使用新的 <b>計量閥</b> 精確控制管線中的資源。</indent>"
+"•<indent=20px>使用新的 <b>截流閥</b> 精確控制管線中的資源。</indent>"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.MERGEDOWNCHANGES_FOOD
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.MERGEDOWNCHANGES_FOOD"
