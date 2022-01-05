@@ -46156,7 +46156,7 @@ msgstr ""
 "藻類是一種不會移動的單細胞生物。\n"
 "\n"
 "將其投入 <link=\"MINERALDEOXIDIZER\">製氧機</link>，可以生產 <link=\"OXYGEN"
-"\">氧氣<</link>"
+"\">氧氣</link>"
 
 #. STRINGS.ELEMENTS.ALGAE.NAME
 msgctxt "STRINGS.ELEMENTS.ALGAE.NAME"
