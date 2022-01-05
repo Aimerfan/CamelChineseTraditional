@@ -3994,7 +3994,10 @@ msgid ""
 "This device must be charged with a high number of Radbolts\n"
 "\n"
 "Operation can commence once this device is fully charged"
-msgstr "此設備必須用大量的輻射粒子充能。充滿後即可進行操作"
+msgstr ""
+"此設備必須用大量的輻射粒子充能。\n"
+"\n"
+"充滿後即可進行操作"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION"
@@ -6036,8 +6039,8 @@ msgid ""
 msgstr ""
 "進行 <link=\"RESEARCH\">星際研究</link> 來解鎖新科技。\n"
 "\n"
-"消耗 <link=\"TELESCOPE\">天文望遠鏡</link> 與 <link=\"RESEARCHMODULE\">研究模組</"
-"link> 資料。\n"
+"消耗 <link=\"TELESCOPE\">天文望遠鏡</link> 與 <link=\"RESEARCHMODULE\">研究模"
+"組</link> 資料。\n"
 "\n"
 "複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。"
 
@@ -6355,8 +6358,8 @@ msgid ""
 "Planetariums allow the simulated exploration of locations recorded in <link="
 "\"ORBITALRESEARCHDATABANK\">Data Banks</link>."
 msgstr ""
-"天文館會將探索地點的模擬結果記錄在 <link=\"ORBITALRESEARCHDATABANK\">資料磁片</"
-"link>。"
+"天文館會將探索地點的模擬結果記錄在 <link=\"ORBITALRESEARCHDATABANK\">資料磁片"
+"</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.DLC1COSMICRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DLC1COSMICRESEARCHCENTER.EFFECT"
@@ -6369,7 +6372,7 @@ msgid ""
 msgstr ""
 "進行<link=\"RESEARCH\">資料分析研究</link>以解鎖新技術。\n"
 "\n"
-"消耗探索時產生的<link=\"ORBITALRESEARCHDATABANK\">資料磁碟</link>。"
+"消耗探索時產生的<link=\"ORBITALRESEARCHDATABANK\">資料磁片</link>。"
 
 #. STRINGS.BUILDINGS.PREFABS.DLC1COSMICRESEARCHCENTER.NAME
 #, fuzzy
@@ -12561,7 +12564,7 @@ msgid ""
 "write it to a <link=\"ORBITALRESEARCHDATABANK\">Data Bank</link>"
 msgstr ""
 "軌道數據收集實驗室在繞行星球軌道時會將數據存入 <link="
-"\"ORBITALRESEARCHDATABANK\">資料磁碟</link>"
+"\"ORBITALRESEARCHDATABANK\">資料磁片</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT"
@@ -12574,7 +12577,7 @@ msgid ""
 "link>."
 msgstr ""
 "產生可以在 <link=\"DLC1COSMICRESEARCHCENTER\">虛擬天文館</link>使用的<link="
-"\"ORBITALRESEARCHDATABANK\">資料磁碟</link>以解鎖新科技。\n"
+"\"ORBITALRESEARCHDATABANK\">資料磁片</link>以解鎖新科技。\n"
 "\n"
 "消耗 <link=\"POLYPROPYLENE\">塑膠</link> 和 <link=\"POWER\">電力</link>。"
 
@@ -14049,7 +14052,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.DESC"
 msgid ""
 "Data banks can be used at virtual planetariums to produce additional "
 "research."
-msgstr "資料磁碟可以在虛擬天文館中進行額外的研究。"
+msgstr "資料磁片可以在虛擬天文館中進行額外的研究。"
 
 #. STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.EFFECT"
@@ -14063,7 +14066,7 @@ msgid ""
 msgstr ""
 "每個太空任務完成一次 <link=\"RESEARCH\">研究任務</link>。\n"
 "\n"
-"無論任務目的地為何，都會產生一個小型資料磁碟。\n"
+"無論任務目的地為何，都會產生一個小型資料磁片。\n"
 "\n"
 "火箭返回時產生 <link=\"RESEARCH\">研究點數</link>。"
 
@@ -14690,8 +14693,8 @@ msgid ""
 "\n"
 "Pod will disintegrate on arrival."
 msgstr ""
-"部署在軌道上 <link=\"SCOUTMODULE\">漫遊者模組</link> 內的 <link=\"SCOUTMODULE\">漫"
-"遊者</link>。\n"
+"部署在軌道上 <link=\"SCOUTMODULE\">漫遊者模組</link> 內的 <link=\"SCOUTMODULE"
+"\">漫遊者</link>。\n"
 "\n"
 "艙體在抵達時會分解。"
 
@@ -23002,16 +23005,16 @@ msgid ""
 "Experiment 52B, in this particular case the experimenting scientists weren't "
 "sure that they were done."
 msgstr ""
-"實驗 52B 是一種具有攻擊性的無柄植物，它每消耗 {amount of food} 的卡路里產生 "
-"{amount of resin} 公斤樹脂。\n"
+"實驗體 52B 是一種具有攻擊性的無柄植物，它每消耗 {amount of food} 的卡路里產"
+"生 {amount of resin} 公斤樹脂。\n"
 "\n"
 "複製人在向實驗 52B 運送食物時最好保持安全距離。\n"
 "\n"
 "雖然這種生物可能看起來像一棵樹，但它的分類更類似於帶有控制植入體的巨型陸基珊"
 "瑚。\n"
 "\n"
-"雖然通常實驗室培育的生物會被賦予比實驗 52B 更好的名字，但在這種特殊情況下，實"
-"驗科學家並不確定它們是否已經完成。"
+"雖然通常實驗室培育的生物會被賦予比實驗體 52B 更好的名字，但在這種特殊情況下，"
+"實驗科學家並不確定它們是否已經完成。"
 
 #. STRINGS.CODEX.EXPERIMENT52B.SUBTITLE
 msgctxt "STRINGS.CODEX.EXPERIMENT52B.SUBTITLE"
@@ -23240,7 +23243,7 @@ msgstr "<b>需要：</b>"
 #. STRINGS.CODEX.HEADERS.BUILDINGTYPE
 msgctxt "STRINGS.CODEX.HEADERS.BUILDINGTYPE"
 msgid "Room Requirements Class"
-msgstr "房間需求類型"
+msgstr "建築類型"
 
 #. STRINGS.CODEX.HEADERS.COMFORTRANGE
 msgctxt "STRINGS.CODEX.HEADERS.COMFORTRANGE"
@@ -27439,10 +27442,9 @@ msgid " or "
 msgstr " 或 "
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.RADBOLT_TRAVEL
-#, fuzzy
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.RADBOLT_TRAVEL"
 msgid "Radbolts travelled: {0:n} m / {1:n} m"
-msgstr "輻射粒子行進了：{0:n} 米 / {1:n} 米"
+msgstr "輻射粒子行進了：{0:n} 公尺 / {1:n} 公尺"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REMAINING_CYCLES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.REMAINING_CYCLES"
@@ -48227,7 +48229,7 @@ msgid ""
 msgstr ""
 "沙子是顆粒狀岩石的混合物\n"
 "\n"
-"它是一種很用好的 <style=\"FILTER\">過濾介質</style>。"
+"它是一種很用好的 <link=\"FILTER\">過濾介質</link>。"
 
 #. STRINGS.ELEMENTS.SAND.NAME
 msgctxt "STRINGS.ELEMENTS.SAND.NAME"
@@ -52466,7 +52468,7 @@ msgstr "原始數據可被處理變成 <style=\"KKeyword\">星際研究</style> 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.NAME"
 msgid "Data Bank"
-msgstr "資料磁碟"
+msgstr "資料磁片"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.ORBITAL_RESEARCH_DATABANK.RECIPE_DESC
 msgctxt ""
@@ -52479,7 +52481,7 @@ msgid ""
 "Used by the <link=\"DLC1COSMICRESEARCHCENTER\">Virtual Planetarium</link> to "
 "conduct research."
 msgstr ""
-"探索時產生的原始數據資料磁碟，透過複製人探索新區域，或是使用 <link="
+"探索時產生的原始數據資料磁片，透過複製人探索新區域，或是使用 <link="
 "\"ORBITALRESEARCHCENTER\">軌道數據收集實驗室</link> 取得。\n"
 "\n"
 "用於 <link=\"DLC1COSMICRESEARCHCENTER\">虛擬天文館</link> 進行研究。"
@@ -52566,7 +52568,7 @@ msgstr "原始數據可被處理變成 <style=\"RESEARCH\">星際研究</style> 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.NAME"
 msgid "Data Bank"
-msgstr "資料磁碟"
+msgstr "資料磁片"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TABLE_SALT.DESC"
@@ -60711,11 +60713,9 @@ msgstr ""
 
 #. STRINGS.RESEARCH.TYPES.ORBITAL.NAME
 #, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGERESEARCH"
-#| msgid "Manage Research"
 msgctxt "STRINGS.RESEARCH.TYPES.ORBITAL.NAME"
 msgid "Data Analysis Research"
-msgstr "管理研究"
+msgstr "數據分析研究"
 
 #. STRINGS.RESEARCH.TYPES.ORBITAL.RECIPEDESC
 msgctxt "STRINGS.RESEARCH.TYPES.ORBITAL.RECIPEDESC"
@@ -64589,7 +64589,8 @@ msgid ""
 "the rocket."
 msgstr ""
 "<b>火箭速度</b> 的計算方式為，<b>引擎功率</b> 除以 <b>載重</b>。\n"
-"火箭在自動駕駛時將降低速度。"
+"火箭在自動駕駛時將降低速度。\n"
+"複製人的火箭技能可以進一步提高火箭速度。"
 
 #. STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION
 msgctxt "STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION"
@@ -73105,7 +73106,7 @@ msgstr "管理複製人優先度"
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE"
 msgid "Enable Proximity"
-msgstr "啓用臨近性"
+msgstr "啓用鄰近優先"
 
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP"
@@ -78236,8 +78237,7 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.EGGROCK.ARTIFACT"
 msgid ""
 "The words \"Happy Farters Day Dad. Love Macy\" appear on the bottom of this "
 "rock, written in a childlish scrawl."
-msgstr ""
-"在這塊岩石的底部，用孩子氣的潦草寫著「父親節快樂。愛你的 Macy」字樣。"
+msgstr "在這塊岩石的底部，用孩子氣的潦草寫著「父親節快樂。愛你的 Macy」字樣。"
 
 #. STRINGS.UI.SPACEARTIFACTS.EGGROCK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.EGGROCK.DESCRIPTION"
