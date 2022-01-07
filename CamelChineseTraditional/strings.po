@@ -16095,7 +16095,7 @@ msgstr "如果最少與一位複製人進行跨星際聊天，複製人會獲得
 #. STRINGS.BUILDINGS.PREFABS.TELEPHONE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPHONE.NAME"
 msgid "<link=\"TELEPHONE\">Party Line Phone</link>"
-msgstr "<link=\"TELEPHONE\">派對專線電話</link>"
+msgstr "<link=\"TELEPHONE\">電話亭</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELEPORTALPAD.DESC"
