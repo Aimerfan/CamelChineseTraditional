@@ -14624,7 +14624,7 @@ msgid ""
 "\n"
 "Must be built via <link=\"LAUNCHPLATFORM\">Rocket Platform</link>."
 msgstr ""
-"將貨物運送到沒有 <link=\"LAUNCHPLATFORM\">火箭平台</link> 的小行星地表。\n"
+"在星際旅行中自動分析附近的太空空間。\n"
 "\n"
 "必須透過 <link=\"LAUNCHPLATFORM\">火箭平台</link> 建造。"
 
