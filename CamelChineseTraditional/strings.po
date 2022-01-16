@@ -47448,8 +47448,7 @@ msgid ""
 "This material will add <b>{0}</b> to the finished building's <style="
 "\"KKeyword\">Decor</style>"
 msgstr ""
-"用此材料建造完成的建築，將會增加 <b>{0}</b> <style=\"KKeyword\">過熱溫度</"
-"style>"
+"用此材料建造完成的建築，將會增加 <b>{0}</b> <style=\"KKeyword\">裝飾</style>"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.EFFECTS_HEADER
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.EFFECTS_HEADER"
