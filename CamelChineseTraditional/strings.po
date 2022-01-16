@@ -7546,7 +7546,7 @@ msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：重設數量"
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr "<b><style=\"logic_off\"紅色訊號</style></b>：無"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC"
@@ -9623,7 +9623,7 @@ msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：重設計量"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr "<b><style=\"logic_off\"紅色訊號</style></b>：無"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC"
@@ -9823,7 +9823,7 @@ msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：發出通知"
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr "<b><style=\"logic_off\"紅色訊號</style></b>：無"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.LOGIC_PORT"
@@ -15376,7 +15376,7 @@ msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：重設數量"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr "<b><style=\"logic_off\"紅色訊號</style></b>：無"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC"
@@ -47448,8 +47448,7 @@ msgid ""
 "This material will add <b>{0}</b> to the finished building's <style="
 "\"KKeyword\">Decor</style>"
 msgstr ""
-"用此材料建造完成的建築，將會增加 <b>{0}</b> <style=\"KKeyword\">過熱溫度</"
-"style>"
+"用此材料建造完成的建築，將會增加 <b>{0}</b> <style=\"KKeyword\">裝飾</style>"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.EFFECTS_HEADER
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.EFFECTS_HEADER"
@@ -64625,12 +64624,12 @@ msgstr "旅行"
 #. STRINGS.UI.CLUSTERMAP.TILES
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES"
 msgid "Tiles"
-msgstr "磚塊"
+msgstr "格"
 
 #. STRINGS.UI.CLUSTERMAP.TILES_PER_CYCLE
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES_PER_CYCLE"
 msgid "Tiles per cycle"
-msgstr "每周期磚塊"
+msgstr "格/每周期"
 
 #. STRINGS.UI.CLUSTERMAP.TITLE
 msgctxt "STRINGS.UI.CLUSTERMAP.TITLE"
