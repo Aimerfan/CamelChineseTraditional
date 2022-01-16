@@ -7546,7 +7546,7 @@ msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：重設數量"
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr "<b><style=\"logic_off\"紅色訊號</style></b>：無"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC"
@@ -9623,7 +9623,7 @@ msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：重設計量"
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr "<b><style=\"logic_off\"紅色訊號</style></b>：無"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC"
@@ -9823,7 +9823,7 @@ msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：發出通知"
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr "<b><style=\"logic_off\"紅色訊號</style></b>：無"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICALARM.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.LOGIC_PORT"
@@ -15376,7 +15376,7 @@ msgstr "<b><style=\"logic_on\">綠色訊號</style></b>：重設數量"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE"
 msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
-msgstr "<b><style=\"logic_off\"紅色訊號</style></b>：無"
+msgstr "<b><style=\"logic_off\">紅色訊號</style></b>：無"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC"
