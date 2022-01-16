@@ -64624,12 +64624,12 @@ msgstr "旅行"
 #. STRINGS.UI.CLUSTERMAP.TILES
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES"
 msgid "Tiles"
-msgstr "磚塊"
+msgstr "格"
 
 #. STRINGS.UI.CLUSTERMAP.TILES_PER_CYCLE
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES_PER_CYCLE"
 msgid "Tiles per cycle"
-msgstr "每周期磚塊"
+msgstr "格/每周期"
 
 #. STRINGS.UI.CLUSTERMAP.TITLE
 msgctxt "STRINGS.UI.CLUSTERMAP.TITLE"
