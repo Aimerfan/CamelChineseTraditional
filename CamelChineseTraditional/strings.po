@@ -5311,17 +5311,17 @@ msgid ""
 "\">Enriched Uranium</link> when worked by a Beeta.\n"
 "Will not function if ground below has been destroyed."
 msgstr ""
-"<link=\"BEE\">蜜蜂</link> 築成有溫和 <link=\"RADIATION\">輻射</link> 的蜂"
+"<link=\"BEE\">輻射蜂</link> 築成有溫和 <link=\"RADIATION\">輻射</link> 的蜂"
 "巢。\n"
 "\n"
-"蜜蜂工作時會將 <link=\"URANIUMORE\">鈾礦</link> 轉換成 <link="
+"輻射蜂工作時會將 <link=\"URANIUMORE\">鈾礦</link> 轉換成 <link="
 "\"ENRICHEDURANIUM\">濃縮鈾</link>。\n"
 "如果地基被毀將會停止運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT"
 msgid "The cozy home of a Beeta."
-msgstr "蜜蜂舒適的家。"
+msgstr "輻射蜂舒適的家。"
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.NAME"
@@ -17580,7 +17580,7 @@ msgstr ""
 "收件者：<b>全體</b></smallcaps>\n"
 "------------------\n"
 "\n"
-"<indent=5%>請不要將活蜜蜂送到辦公室的郵務室。\n"
+"<indent=5%>請不要將活輻射蜂送到辦公室的郵務室。\n"
 "請透過管理部申請並排定實驗測試項目。\n"
 "\n"
 "<I>請透過管理部申請所有的測試項目。</i>\n"
@@ -22050,7 +22050,7 @@ msgstr "侵略性動物"
 #. STRINGS.CODEX.BEETA.TITLE
 msgctxt "STRINGS.CODEX.BEETA.TITLE"
 msgid "Beeta"
-msgstr "蜜蜂"
+msgstr "輻射蜂"
 
 #. STRINGS.CODEX.BLISSBURST.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BLISSBURST.BODY.CONTAINER1"
@@ -28096,7 +28096,7 @@ msgstr "<link=\"SWEEPBOT\">清潔機器人</link>"
 #. STRINGS.CREATURES.FAMILY_PLURAL.BEETASPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.BEETASPECIES"
 msgid "<link=\"BEETASPECIES\">Beetas</link>"
-msgstr "<link=\"BEETASPECIES\">蜜蜂</link>"
+msgstr "<link=\"BEETASPECIES\">輻射蜂</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.CRABSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.CRABSPECIES"
@@ -28724,14 +28724,14 @@ msgid ""
 "\n"
 "In time, it will mature into a vicious adult <link=\"BEE\">Beeta</link>."
 msgstr ""
-"一個蠕動的小蜜蜂寶寶。\n"
+"一個蠕動的小輻射蜂寶寶。\n"
 "\n"
-"隨的時間，它會成長為一隻成年的 <link=\"BEE\">蜜蜂</link>。"
+"隨的時間，它會成長為一隻成年的 <link=\"BEE\">輻射蜂</link>。"
 
 #. STRINGS.CREATURES.SPECIES.BEE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.BABY.NAME"
 msgid "<link=\"BEE\">Beetiny</link>"
-msgstr "<link=\"BEE\">蜜蜂寶寶</link>"
+msgstr "<link=\"BEE\">輻射蜂寶寶</link>"
 
 #. STRINGS.CREATURES.SPECIES.BEE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.DESC"
@@ -28751,7 +28751,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.BEE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.NAME"
 msgid "<link=\"BEE\">Beeta</link>"
-msgstr "<link=\"BEE\">蜜蜂</link>"
+msgstr "<link=\"BEE\">輻射蜂</link>"
 
 #. STRINGS.CREATURES.SPECIES.BULBPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BULBPLANT.DESC"
@@ -78325,7 +78325,7 @@ msgid ""
 "they'd ever tasted\" and expressed no regret at the mix-up."
 msgstr ""
 "引力科技的遺傳與生物實驗室的記錄顯示，\n"
-"輻射蜜蜂在幾次早期的迭代時會持續的生產蜂蜜，\n"
+"輻射蜂在幾次早期的迭代時會持續的生產蜂蜜，\n"
 "並且這種蜂蜜被意外的存放在員工的廚房中，\n"
 "當它被錯誤的標記為茶飲所使用的甜味劑時，\n"
 "導致了幾起輕微的輻射中毒事件。\n"
