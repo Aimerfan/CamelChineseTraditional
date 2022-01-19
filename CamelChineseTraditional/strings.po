@@ -13917,7 +13917,7 @@ msgstr "<link=\"RAILGUN\">行星軌道炮</link>"
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.SIDESCREEN_HEP_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.SIDESCREEN_HEP_REQUIRED"
 msgid "Launch cost: {current} / {required} radbolts"
-msgstr "發現消耗：{current}／{required} 輻射粒子"
+msgstr "發射消耗：{current}／{required} 輻射粒子"
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC"
