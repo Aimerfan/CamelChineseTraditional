@@ -4745,7 +4745,7 @@ msgstr ""
 #| msgid "<link=\"APOTHECARY\">Apothecary</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.NAME"
 msgid "<link=\"ADVANCEDAPOTHECARY\">Nuclear Apothecary</link>"
-msgstr "<link=\"APOTHECARY\">製藥桌</link>"
+msgstr "<link=\"APOTHECARY\">核能製藥桌</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDDOCTORSTATION.DESC"
@@ -5852,6 +5852,8 @@ msgstr ""
 "\n"
 "複製人必須具備 <link=\"ASTRONOMY\">天文學</link> 技能。\n"
 "\n"
+"出色的防曬保護 (100%)，和部分 <link=\"RADIATION\">輻射</link> 保護 (50%) 。\n"
+"\n"
 "建築必須曝露在太空中才能運作。"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPEENCLOSED.NAME
@@ -6315,12 +6317,12 @@ msgstr "開發用發電機"
 #| msgid "These Duplicants cannot breathe:"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVLIFESUPPORT.DESC"
 msgid "Keeps Duplicants cozy and breathing."
-msgstr "這些複製人無法呼吸："
+msgstr "保證這些複製人舒適並可呼吸："
 
 #. STRINGS.BUILDINGS.PREFABS.DEVLIFESUPPORT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVLIFESUPPORT.EFFECT"
 msgid "Generates warm, oxygen-rich air."
-msgstr ""
+msgstr "產生溫暖、高含氧的空氣。"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVLIFESUPPORT.NAME
 #, fuzzy
@@ -6328,7 +6330,7 @@ msgstr ""
 #| msgid "Life Support"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVLIFESUPPORT.NAME"
 msgid "Dev Life Support"
-msgstr "生存"
+msgstr "開發用生存支持"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVPUMPGAS.DESC
 #, fuzzy
@@ -6367,7 +6369,7 @@ msgstr ""
 #| msgid "<link=\"SOURGAS\">Sour Gas</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVPUMPGAS.NAME"
 msgid "<link=\"DEVPUMPGAS\">Dev Pump Gas</link>"
-msgstr "<link=\"SOURGAS\">酸氣</link>"
+msgstr "<link=\"DEVPUMPGAS\">開發用氣體幫浦</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DEVPUMPLIQUID.DESC
 #, fuzzy
@@ -9289,7 +9291,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET_ACTIVE"
 msgid ""
 "Sends a Green Signal when its rocket is on the <link=\"LAUNCHPAD\">Rocket "
 "Platform</link>"
-msgstr "當火箭在火箭平台上時，發出綠色訊號"
+msgstr "當火箭在 <link=\"LAUNCHPAD\">火箭平台</link> 上時，發出綠色信號"
 
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.LOGIC_PORT_LANDED_ROCKET_INACTIVE"
@@ -14163,7 +14165,7 @@ msgstr ""
 #| msgid "The granite wall of a once great scientific facility."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.EFFECT"
 msgid "The wall of a once-great scientific facility."
-msgstr "一個曾經偉大科學設施的花崗岩牆。"
+msgstr "曾經偉大的科學設施的牆壁。"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.NAME"
@@ -24007,21 +24009,6 @@ msgstr "<link=\"EXOBASES\">太空旅行</link>"
 
 #. STRINGS.CODEX.EXPERIMENT52B.BODY.CONTAINER1
 #, fuzzy
-#| msgctxt "STRINGS.CODEX.EXPERIMENT52B.BODY.CONTAINER1"
-#| msgid ""
-#| "Experiment 52B is an aggressive, yet sessile creature that produces "
-#| "{amount of resin} kilograms of resin per {amount of food} calories it "
-#| "consumes.\n"
-#| "\n"
-#| "Duplicants would do well to maintain a safe distance when delivering food "
-#| "to Experiment 52B.\n"
-#| "\n"
-#| "While this creature may look like a tree, its taxonomy more closely "
-#| "resembles a giant land-based coral with cybernetic implants.\n"
-#| "\n"
-#| "Although normally lab-grown creatures would be given a better name than "
-#| "Experiment 52B, in this particular case the experimenting scientists "
-#| "weren't sure that they were done."
 msgctxt "STRINGS.CODEX.EXPERIMENT52B.BODY.CONTAINER1"
 msgid ""
 "Experiment 52B is an aggressive, yet sessile creature that produces 5 "
@@ -24037,8 +24024,8 @@ msgid ""
 "Experiment 52B, in this particular case the experimenting scientists weren't "
 "sure that they were done."
 msgstr ""
-"實驗體 52B 是一種具有攻擊性的無柄植物，它每消耗 {amount of food} 的卡路里產"
-"生 {amount of resin} 公斤樹脂。\n"
+"實驗體 52B 是一種具有攻擊性的無柄植物，每消耗 1000 大卡食物會產生 5 公斤樹"
+"脂。\n"
 "\n"
 "複製人在向實驗 52B 運送食物時最好保持安全距離。\n"
 "\n"
@@ -50293,12 +50280,6 @@ msgstr "提供複製人 <style=\"oxygen\">氧氣</style> 在有毒與低氧的�
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.WORN_DESC
 #, fuzzy
-#| msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.WORN_DESC"
-#| msgid ""
-#| "A worn out <link=\"ATMOSUIT\">Atmo Suit</link>.\n"
-#| "\n"
-#| "Suits can be repaired at a <link=\"CRAFTINGTABLE\">Crafting Station</"
-#| "link>."
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.WORN_DESC"
 msgid ""
 "A worn out <link=\"ATMOSUIT\">Atmo Suit</link>.\n"
@@ -50307,7 +50288,7 @@ msgid ""
 msgstr ""
 "一套破舊的 <link=\"ATMOSUIT\">太空衣</link>。\n"
 "\n"
-"太空衣可以在 <link=\"CRAFTINGTABLE\">工藝台</link> 修理。"
+"太空衣可以在 <link=\"SUITFABRICATOR\">太空衣工廠</link> 修理。"
 
 #. STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.WORN_NAME
 msgctxt "STRINGS.EQUIPMENT.PREFABS.ATMO_SUIT.WORN_NAME"
@@ -65640,11 +65621,9 @@ msgstr "稀少"
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.SURFACE_CONDITIONS.LIGHT
 #, fuzzy
-#| msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PANRIGHT"
-#| msgid "Pan Right"
 msgctxt "STRINGS.UI.CLUSTERMAP.ASTEROIDS.SURFACE_CONDITIONS.LIGHT"
 msgid "Peak Light"
-msgstr "鏡頭向右"
+msgstr "峰值亮度"
 
 #. STRINGS.UI.CLUSTERMAP.ASTEROIDS.SURFACE_CONDITIONS.RADIATION
 #, fuzzy
@@ -67010,7 +66989,7 @@ msgctxt ""
 "WARNING_ONE_ROCKETS_STRANDED"
 msgid ""
 "    • No <link=\"LAUNCHPAD\">Rocket Platform</link> present. {0} stranded"
-msgstr "<link=\"LAUNCHPAD\">火箭平台</link>"
+msgstr "    • 沒有可用的 <link=\"LAUNCHPAD\">火箭平台</link>。 {0} 擱淺"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETINORBITDIAGNOSTIC.WARNING_ROCKETS_STRANDED
 #, fuzzy
@@ -72578,7 +72557,7 @@ msgstr "瀏覽"
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.CONTENT_FOLDER
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.CONTENT_FOLDER"
 msgid "Content Folder Path"
-msgstr ""
+msgstr "內容資料夾路徑"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.DESCRIPTION
 #, fuzzy
@@ -72634,16 +72613,17 @@ msgid ""
 "This mod will be available to all players after publishing. It may be "
 "subject to review before being allowed to be published."
 msgstr ""
+"此模組將在發佈後提供給所有玩家。 在被允許發布之前，它可能需要經過校閱。"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.MOD_UPLOAD_RESULT.FAILURE
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.MOD_UPLOAD_RESULT.FAILURE"
 msgid "Mod upload failed."
-msgstr ""
+msgstr "模組上傳失敗。"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.MOD_UPLOAD_RESULT.SUCCESS
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.MOD_UPLOAD_RESULT.SUCCESS"
 msgid "Mod upload succeeded."
-msgstr ""
+msgstr "模組上傳成功。"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.NAME
 #, fuzzy
@@ -72656,24 +72636,24 @@ msgstr "名字"
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.PREVIEW_IMAGE
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.PREVIEW_IMAGE"
 msgid "Preview Image Path"
-msgstr ""
+msgstr "預覽圖像路徑"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SHARE_TYPE
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SHARE_TYPE"
 msgid "Share Type"
-msgstr ""
+msgstr "分享類型"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SUBMIT
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SUBMIT"
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SUBMIT_NOT_READY
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SUBMIT_NOT_READY"
 msgid ""
 "The mod cannot be submitted. Check that all fields are properly entered and "
 "that the paths are valid."
-msgstr ""
+msgstr "無法提交模組。 檢查所有欄位是否正確輸入以及路徑是否有效。"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SUBMIT_READY
 #, fuzzy
@@ -72772,6 +72752,14 @@ msgid ""
 "\n"
 "   Check out the full patch notes for more details!"
 msgstr ""
+"這個次要更新包括：\n"
+"\n"
+"•<indent=20px>為 WeGame 用戶提供更好的模組管理和模組上傳。</indent>\n"
+"•<indent=20px>修復了導致 Linux 用戶看到與其他平台不同的 worldgen 結果的問題。"
+"</indent>\n"
+"•<indent=20px>大量崩潰和錯誤修復。</indent>\n"
+"\n"
+"    查看完整的補丁說明了解更多詳情！"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -81804,7 +81792,7 @@ msgctxt ""
 msgid ""
 "The <link=\"LAUNCHPAD\">Rocket Platform</link> could still transfer cargo to "
 "or from this rocket"
-msgstr "此 <link=\"LAUNCHPAD\">火箭平台</link> 仍然可以裝載或缷下火箭的貨物"
+msgstr "此 <link=\"LAUNCHPAD\">火箭平台</link> 仍然可以裝載或卸下火箭的貨物"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CONSTRUCTION_COMPLETE.STATUS.FAILURE
 msgctxt ""
@@ -82216,7 +82204,7 @@ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.WARNING"
 msgid ""
 "The <link=\"LAUNCHPAD\">Rocket Platform</link> could still transfer cargo to "
 "or from this rocket"
-msgstr "此 <link=\"LAUNCHPAD\">火箭平台</link> 仍然可以裝載或缷下火箭的貨物"
+msgstr "此 <link=\"LAUNCHPAD\">火箭平台</link> 仍然可以裝載或卸下火箭的貨物"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_HEIGHT.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.MAX_HEIGHT.STATUS.FAILURE"
@@ -84725,7 +84713,7 @@ msgstr "取消啟動此建築"
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.PIPES.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.PIPES.TOOLTIP"
 msgid "Add Dev Pumps and Pipes"
-msgstr ""
+msgstr "添加開發幫浦和管道"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.POWER.TOOLTIP
 #, fuzzy
@@ -84738,7 +84726,7 @@ msgstr "發電機與電池"
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.SOLIDS.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.SOLIDS.TOOLTIP"
 msgid "Spawn solid resources for a relevant recipe or conversions"
-msgstr ""
+msgstr "為相關的合成配方或轉化產生固體資源"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.TITLE
 #, fuzzy
@@ -84943,7 +84931,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN."
 "DROPDOWN_TOOLTIP_PAD_DISABLED"
 msgid "<link=\"LAUNCHPAD\">Rocket Platform</link> is disabled"
-msgstr "<link=\"LAUNCHPAD\">火箭平台</link>"
+msgstr "<link=\"LAUNCHPAD\">火箭平台</link> 已停用"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.DROPDOWN_TOOLTIP_PATH_OBSTRUCTED
 msgctxt ""
@@ -84979,7 +84967,7 @@ msgstr "清理後著陸在 {0}"
 #| msgid "<link=\"LAUNCHPLATFORM\">Rocket Platform</link>"
 msgctxt "STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.FIRSTAVAILABLE"
 msgid "Any <link=\"LAUNCHPAD\">Rocket Platform</link>"
-msgstr "<link=\"LAUNCHPAD\">火箭平台</link>"
+msgstr "任何 <link=\"LAUNCHPAD\">火箭平台</link>"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.LOOP_BUTTON_TOOLTIP
 msgctxt ""
