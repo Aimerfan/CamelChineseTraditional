@@ -48022,9 +48022,15 @@ msgid "<link=\"ETHANOLGAS\">Ethanol</link>"
 msgstr "<link=\"ETHANOL\">乙醇</link>"
 
 #. STRINGS.ELEMENTS.FALLOUT.DESC
+#, fuzzy
 msgctxt "STRINGS.ELEMENTS.FALLOUT.DESC"
-msgid "TBD"
-msgstr "TBD"
+msgid ""
+"Nuclear Fallout is a highly toxic gas full of <link=\"RADIATION"
+"\">Radioactive Contaminants</link>. Formed in a <link=\"NUCLEARREACTOR"
+"\">Reactor meltdown</link>."
+msgstr ""
+"核輻射是一種充滿<link=\"RADIATION\">放射性污染物</link>的劇毒氣體。 在<link="
+"\"NUCLEARREACTOR\">反應堆熔毀</link>中形成。"
 
 #. STRINGS.ELEMENTS.FALLOUT.NAME
 msgctxt "STRINGS.ELEMENTS.FALLOUT.NAME"
@@ -49072,13 +49078,14 @@ msgid "<link=\"NIOBIUMGAS\">Niobium</link>"
 msgstr "<link=\"NIOBIUMGAS\">鈮</link>"
 
 #. STRINGS.ELEMENTS.NUCLEARWASTE.DESC
+#, fuzzy
 msgctxt "STRINGS.ELEMENTS.NUCLEARWASTE.DESC"
 msgid ""
 "Highly toxic liquid full of <link=\"RADIATION\">Radioactive Contaminants</"
-"link>. Formed in an <link=\"MELTDOWN\">Nuclear Meltdown</link>."
+"link>. Formed in a <link=\"NUCLEARREACTOR\">Reactor meltdown</link>."
 msgstr ""
-"充滿劇毒的 <link=\"RADIATION\">輻射汙染物</link>。形成於 <link=\"MELTDOWN\">"
-"核熔毀</link>。"
+"充滿<link=\"RADIATION\">放射性污染物</link>的劇毒液體。 在<linked=\"NUCLEAR "
+"REACTOR\">反應堆熔毀</link>中形成。"
 
 #. STRINGS.ELEMENTS.NUCLEARWASTE.NAME
 msgctxt "STRINGS.ELEMENTS.NUCLEARWASTE.NAME"
@@ -49629,13 +49636,14 @@ msgid "<link=\"SOLIDNAPHTHA\">Naphtha</link>"
 msgstr "<link=\"SOLIDNAPHTHA\">輕油</link>"
 
 #. STRINGS.ELEMENTS.SOLIDNUCLEARWASTE.DESC
+#, fuzzy
 msgctxt "STRINGS.ELEMENTS.SOLIDNUCLEARWASTE.DESC"
 msgid ""
 "Highly toxic liquid full of <link=\"RADIATION\">Radioactive Contaminants</"
-"link>. Formed in an <link=\"MELTDOWN\">Nuclear Meltdown</link>."
+"link>. Formed in a <link=\"NUCLEARREACTOR\">Reactor meltdown</link>."
 msgstr ""
-"充滿劇毒的液態 <link=\"RADIATION\">輻射汙染物</link>。形成於 <link=\"MELTDOWN"
-"\">核熔毀</link>。"
+"充滿<link=\"RADIATION\">放射性污染物</link>的劇毒液體。 在<linked=\"NUCLEAR "
+"REACTOR\">反應堆熔毀</link>中形成。"
 
 #. STRINGS.ELEMENTS.SOLIDNUCLEARWASTE.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDNUCLEARWASTE.NAME"
@@ -92060,6 +92068,10 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "水小行星"
+
+#~ msgctxt "STRINGS.ELEMENTS.FALLOUT.DESC"
+#~ msgid "TBD"
+#~ msgstr "TBD"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDAPOTHECARY.NAME"
 #~ msgid "<link=\"ADVANCEDAPOTHECARY\"></link>"
