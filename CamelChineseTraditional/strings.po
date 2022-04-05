@@ -1159,6 +1159,21 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.EXPIRED.TOOLTIP"
 msgid "This building has no more use"
 msgstr "此建築不能使用了"
 
+#. STRINGS.BUILDING.STATUSITEMS.FABRICATORACCEPTSMUTANTSEEDS.NAME
+#, fuzzy
+#| msgctxt ""
+#| "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN."
+#| "ALLOW_MUTANT_SEED_INGREDIENTS"
+#| msgid "Building accepts mutant seeds"
+msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORACCEPTSMUTANTSEEDS.NAME"
+msgid "Fabricator accepts mutant seeds"
+msgstr "此建築物消耗突變種子"
+
+#. STRINGS.BUILDING.STATUSITEMS.FABRICATORACCEPTSMUTANTSEEDS.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATORACCEPTSMUTANTSEEDS.TOOLTIP"
+msgid "This fabricator is allowed to use mutant seeds as recipe ingredients."
+msgstr "這個建築物允許使用突變種子作為訂單原料。"
+
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.NAME"
 msgid "Waiting For Materials"
@@ -24380,7 +24395,7 @@ msgstr "農作物"
 #. STRINGS.CODEX.HEADERS.RECIPE
 msgctxt "STRINGS.CODEX.HEADERS.RECIPE"
 msgid "Recipe Ingredients"
-msgstr "調味料"
+msgstr "訂單原料"
 
 #. STRINGS.CODEX.HEADERS.ROLE_PERKS
 msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS"
@@ -85435,7 +85450,7 @@ msgctxt ""
 msgid ""
 "Toggle whether Duplicants will deliver mutant seed species to this building "
 "as recipe ingredients."
-msgstr "如果啟用，複製人將會運送變異種子到此建築。"
+msgstr "如果啟用，複製人將會運送變異種子到此建築作為訂單原料。"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CALS
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.CALS"
@@ -88647,6 +88662,26 @@ msgstr " 單位"
 msgctxt "STRINGS.UI.UNITSUFFIXES.UNITS"
 msgid " units"
 msgstr " 單位"
+
+#. STRINGS.UI.USERMENUACTIONS.ACCEPT_MUTANT_SEEDS.ACCEPT
+#, fuzzy
+msgctxt "STRINGS.UI.USERMENUACTIONS.ACCEPT_MUTANT_SEEDS.ACCEPT"
+msgid "Allow Mutants"
+msgstr "允許變異種子"
+
+#. STRINGS.UI.USERMENUACTIONS.ACCEPT_MUTANT_SEEDS.REJECT
+#, fuzzy
+msgctxt "STRINGS.UI.USERMENUACTIONS.ACCEPT_MUTANT_SEEDS.REJECT"
+msgid "Forbid Mutants"
+msgstr "不允許變異種子"
+
+#. STRINGS.UI.USERMENUACTIONS.ACCEPT_MUTANT_SEEDS.TOOLTIP
+#, fuzzy
+msgctxt "STRINGS.UI.USERMENUACTIONS.ACCEPT_MUTANT_SEEDS.TOOLTIP"
+msgid ""
+"Toggle whether or not this building will accept mutant seeds for recipes "
+"that could use them."
+msgstr "切換建築物是否接受突變種子用於製作訂單。"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE"
