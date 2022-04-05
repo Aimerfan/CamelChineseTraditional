@@ -112,7 +112,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.NAME"
 msgid "Autopilot Engaged"
-msgstr "自動駕駛"
+msgstr "自動駕駛已啟動"
 
 #. STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AUTOPILOTACTIVE.TOOLTIP"
@@ -3414,7 +3414,7 @@ msgstr "資源正在從本地的物流系統輸入火箭的儲存艙"
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.NAME"
 msgid "Unloading Rocket"
-msgstr "缷載火箭"
+msgstr "卸載火箭"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP"
@@ -8515,7 +8515,7 @@ msgid ""
 msgstr ""
 "吸收附近的 <link=\"RADIATION\">輻射</link> 產生輻射粒子。\n"
 "\n"
-"當達到輻射粒子門檻時，朝你所選擇的方向釋放輻射粒子。\n"
+"當達到設定的門檻時，朝你所選擇的方向釋放輻射粒子。\n"
 "\n"
 "當建築停用時輻射粒子會流失。"
 
@@ -11912,9 +11912,9 @@ msgid ""
 "\n"
 "Emits generated Radbolts in the direction of your choosing."
 msgstr ""
-"精煉輻射礦物產生輻射粒子。\n"
+"精煉輻射礦物以產生輻射粒子。\n"
 "\n"
-"朝你所選擇的方向釋放輻射粒子。"
+"釋放輻射粒子時可以選擇方向。"
 
 #. STRINGS.BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MANUALHIGHENERGYPARTICLESPAWNER.NAME"
@@ -12790,7 +12790,7 @@ msgstr "<link=\"NOSECONEHARVEST\">鑽頭鼻錐</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.DESC"
 msgid ""
 "Radbolt generators and reflectors make radiation useable by other buildings."
-msgstr "輻射粒子產生器與反射器使輻射可用於其它建築。"
+msgstr "輻射粒子產生器與反射器使輻射粒子可用於其它建築。"
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.EFFECT"
@@ -12801,10 +12801,10 @@ msgid ""
 "Generates a massive amount of <link=\"HEAT\">Heat</link>. Overheating will "
 "result in an explosive meltdown."
 msgstr ""
-"使用 <link=\"ENRICHEDURANIUM\">濃縮鈾</link> 產生用於輻射粒子產生的 <link="
-"\"RADIATION\">輻射</link>。\n"
+"使用 <link=\"ENRICHEDURANIUM\">濃縮鈾</link> 產生 <link=\"RADIATION\">輻射</"
+"link>，輻射可用於產生輻射粒子。\n"
 "\n"
-"產生大量的 <link=\"HEAT\">熱</link>。當過熱時會導致爆炸性熔毀。"
+"同時產生大量的 <link=\"HEAT\">熱</link>。過熱時則會導致爆炸性熔毀。"
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_ACTIVE"
@@ -14286,14 +14286,16 @@ msgid "Duplicants can become sick if exposed to radiation without protection."
 msgstr "複製人如果沒有防護而曝露在輻射環境中的話會生病。"
 
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.EFFECT
+#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.EFFECT"
 msgid ""
 "Emits <link=\"RADIATION\">Radiation</link> when <link=\"POWER\">Powered</"
 "link> that can be collected by a <link=\"HIGHENERGYPARTICLESPAWNER\">Radbolt "
 "Generator</link>."
 msgstr ""
-"<link=\"POWER\">通電</link>時所釋放 <link=\"RADIATION\">輻射</link> 可以使用 "
-"<link=\"HIGHENERGYPARTICLESPAWNER\">輻射粒子產生器</link> 收集起來。"
+"消耗 <link=\"POWER\">電力</link> 並釋放 <link=\"RADIATION\">輻射</link>，輻射"
+"可以使用 <link=\"HIGHENERGYPARTICLESPAWNER\">輻射粒子產生器</link> 收集並產生"
+"輻射粒子。"
 
 #. STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RADIATIONLIGHT.NAME"
@@ -14626,7 +14628,6 @@ msgstr ""
 "指派的複製人必須有 <link=\"ROCKETPILOTING1\">火箭駕駛</link> 技能。"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.LOGIC_PORT
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETCONTROLSTATION.LOGIC_PORT"
 msgid "Restrict Building Usage"
 msgstr "限制建築使用"
@@ -14708,7 +14709,6 @@ msgid "<link=\"ROCKETINTERIORGASINPUT\">Gas Intake Fitting</link>"
 msgstr "<link=\"ROCKETINTERIORGASINPUT\">氣體輸入配件</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.DESC
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.DESC"
 msgid ""
 "A direct attachment leading to the output port on the exterior of the rocket."
@@ -14758,7 +14758,6 @@ msgid "<link=\"ROCKETINTERIORGASOUTPUT\">Gas Output Fitting</link>"
 msgstr "<link=\"ROCKETINTERIORGASOUTPUT\">氣體輸出配件</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.DESC
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.DESC"
 msgid "A direct attachment to the input port on the exterior of a rocket."
 msgstr "一個氣體輸出口, 通往火箭外部的輸入口。"
@@ -14804,7 +14803,6 @@ msgid "<link=\"ROCKETINTERIORLIQUIDINPUT\">Liquid Intake Fitting</link>"
 msgstr "<link=\"ROCKETINTERIORLIQUIDINPUT\">液體輸入配件</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.DESC
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.DESC"
 msgid "A direct attachment to the output port on the exterior of a rocket."
 msgstr "一個液體輸入口, 通往火箭外部的輸出口。"
@@ -16950,11 +16948,10 @@ msgid "<link=\"VERTICALWINDTUNNEL\">Vertical Wind Tunnel</link>"
 msgstr "<link=\"VERTICALWINDTUNNEL\">垂直風洞機</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.WALLTOILET.DESC
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.WALLTOILET.DESC"
 msgid ""
 "Wall Toilets transmit fewer germs to Duplicants and require no emptying."
-msgstr "壁掛式廁所向複製人傳播的細菌較少，而且無須打掃。"
+msgstr "壁掛式廁所傳播給複製人的細菌較少，而且無須打掃。"
 
 #. STRINGS.BUILDINGS.PREFABS.WALLTOILET.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WALLTOILET.EFFECT"
@@ -17418,12 +17415,9 @@ msgid "Moonlet Cluster - The Desolands"
 msgstr "衛星星團 －荒地"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.DESCRIPTION
-#, fuzzy
-#| msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.DESCRIPTION"
-#| msgid "A cluster of visitable planetoids with an inverted starting world"
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.DESCRIPTION"
 msgid "A cluster of visitable planetoids with an inverted starting world."
-msgstr "有一個顛倒起始世界的星團"
+msgstr "有一個顛倒起始世界的星團。"
 
 #. STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.NAME
 msgctxt "STRINGS.CLUSTER_NAMES.MINICLUSTER_FLIPPEDSTART.NAME"
@@ -56760,9 +56754,10 @@ msgid "Any"
 msgstr "任何"
 
 #. STRINGS.MISC.TAGS.ANYWATER
+#, fuzzy
 msgctxt "STRINGS.MISC.TAGS.ANYWATER"
 msgid "Water Based"
-msgstr "水性的"
+msgstr "水"
 
 #. STRINGS.MISC.TAGS.ART
 msgctxt "STRINGS.MISC.TAGS.ART"
@@ -67064,12 +67059,9 @@ msgid "Toilets"
 msgstr "廁所"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.CRITERIA.CHECKBLADDERS
-#, fuzzy
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.TOOLTIP"
-#| msgid "These Duplicants fell to their deaths:"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.CRITERIA.CHECKBLADDERS"
 msgid "Check Duplicants really need to use the toilet"
-msgstr "這些複製人摔死了："
+msgstr "這些複製人急需上廁所："
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.CRITERIA.CHECKENOUGHTOILETS
 msgctxt ""
@@ -67109,12 +67101,9 @@ msgid "    • Colony has adequate working toilets"
 msgstr "    • 殖民地有足夠廁所"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOILET_URGENT
-#, fuzzy
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.NORMAL"
-#| msgid "    • All Duplicants currently have tasks"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOILET_URGENT"
 msgid "    • Duplicants urgently need to use a toilet"
-msgstr "    • 全部的複製人都有任務"
+msgstr "    • 複製人急需上廁所"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.TOOLTIP_NAME"
@@ -69915,7 +69904,7 @@ msgstr "沒有特質"
 msgctxt ""
 "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SELECTED_CLUSTER_TRAITS_HEADER"
 msgid "Target Details"
-msgstr "目標詳細資訊"
+msgstr "目的地詳細資訊"
 
 #. STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SHUFFLE
 msgctxt "STRINGS.UI.FRONTEND.COLONYDESTINATIONSCREEN.SHUFFLE"
@@ -72635,11 +72624,9 @@ msgstr "模組上傳成功。"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.NAME
 #, fuzzy
-#| msgctxt "STRINGS.UI.VITALSSCREEN_NAME"
-#| msgid "Name"
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.NAME"
 msgid "Mod Name"
-msgstr "名字"
+msgstr "模組名稱"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.PREVIEW_IMAGE
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.PREVIEW_IMAGE"
@@ -72665,27 +72652,21 @@ msgstr "無法提交模組。 檢查所有欄位是否正確輸入以及路徑�
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SUBMIT_READY
 #, fuzzy
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP"
-#| msgid "This bathroom is ready to receive visitors"
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.SUBMIT_READY"
 msgid "This mod is ready to submit"
-msgstr "此廁所已準備好接待訪客"
+msgstr "此模組已經準備好可以提交"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.TITLE
 #, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.UNLOCK_SANDBOX"
-#| msgid "Unlock Sandbox Mode"
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.TITLE"
 msgid "Upload Mod"
-msgstr "解鎖沙盒模式"
+msgstr "上傳模組"
 
 #. STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.VERSION
 #, fuzzy
-#| msgctxt "STRINGS.CODEX.B4_REVISITEDNUMBERS.TITLE"
-#| msgid "Revisited Numbers"
 msgctxt "STRINGS.UI.FRONTEND.MODS.RAILMODUPLOAD.VERSION"
 msgid "Version Number"
-msgstr "重訪號碼"
+msgstr "版本號碼"
 
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
@@ -72714,8 +72695,6 @@ msgstr "管理本地模組"
 
 #. STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_RAIL_SUBSCRIPTION
 #, fuzzy
-#| msgctxt "STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_STEAM_SUBSCRIPTION"
-#| msgid "Manage Steam Subscription"
 msgctxt "STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_RAIL_SUBSCRIPTION"
 msgid "Manage Subscription"
 msgstr "管理 Steam 訂閱"
@@ -83831,11 +83810,9 @@ msgstr "必須建在角落"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER_FLOOR
 #, fuzzy
-#| msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_INSIDEGROUND"
-#| msgid "Must be built in the ground"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER_FLOOR"
 msgid "Must be built in a corner on the ground"
-msgstr "必須建在地裡"
+msgstr "必須建造在地板與牆壁的夾角"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR"
@@ -84735,11 +84712,9 @@ msgstr "自動儲存"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.MINION.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.TOOLTIP_CANCEL"
-#| msgid "Cancel activation of this building"
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.MINION.TOOLTIP"
 msgid "Spawn a Duplicant in front of the building"
-msgstr "取消啟動此建築"
+msgstr "在建築物前生成一個複制人"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.PIPES.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.PIPES.TOOLTIP"
@@ -84748,11 +84723,9 @@ msgstr "添加開發幫浦和管道"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.POWER.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.CODEX.POWER.HEADER_2"
-#| msgid "Generators and Batteries"
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.POWER.TOOLTIP"
 msgid "Add Dev Generator and Electrical Wires"
-msgstr "發電機與電池"
+msgstr "添加開發發電機和電線"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.SOLIDS.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.BUTTONS.SOLIDS.TOOLTIP"
@@ -84761,12 +84734,9 @@ msgstr "為相關的合成配方或轉化產生固體資源"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.TITLE
 #, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.OVERLAYS.DISEASE.DISINFECT_THRESHOLD_DIAGRAM.TOOLTIP_DISABLED"
-#| msgid "Automatic building disinfection disabled."
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOPLUMBERSIDESCREEN.TITLE"
 msgid "Automatic Building Configuration"
-msgstr "已停止自動消毒建築物。"
+msgstr "自動建築物配置"
 
 #. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGDELIVERY"
@@ -85935,19 +85905,13 @@ msgstr "自動化控制"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_AUTOMATION_CONTROLLED_TOOLTIP
 #, fuzzy
-#| msgctxt ""
-#| "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN."
-#| "LAUNCH_AUTOMATION_CONTROLLED_TOOLTIP"
-#| msgid ""
-#| "This <link=\"LAUNCHPLATFORM\">Rocket Platform</link>'s launch operation "
-#| "is controlled by automation signals"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN."
 "LAUNCH_AUTOMATION_CONTROLLED_TOOLTIP"
 msgid ""
 "This <link=\"LAUNCHPAD\">Rocket Platform</link>'s launch operation is "
 "controlled by automation signals"
-msgstr "此 <link=\"LAUNCHPAD\">火箭平台</link> 的火射操作由自動化訊號控制"
+msgstr "此 <link=\"LAUNCHPAD\">火箭平台</link> 的發射操作由自動化訊號控制"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.LAUNCH_BUTTON"
