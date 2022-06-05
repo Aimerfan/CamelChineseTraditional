@@ -243,8 +243,8 @@ msgid ""
 "Duplicants may specifically fetch <style=\"KKeyword\">Liquid</style> from a "
 "<link=\"LIQUIDPUMPINGSTATION\">Pitcher Pump</link> to bring to this location"
 msgstr ""
-"複製人會從 <link=\"LIQUIDPUMPINGSTATION\">手壓幫浦</style> 將 <style="
-"\"KKeyword\">液體</link> 帶到這個位置倒掉"
+"複製人會從 <link=\"LIQUIDPUMPINGSTATION\">手壓幫浦</link> 將 <style="
+"\"KKeyword\">液體</style> 帶到這個位置倒掉"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME"
@@ -5710,9 +5710,7 @@ msgstr "<link=\"CHECKPOINT\">複製人檢查點</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGALTERATIONSTATION.DESC"
 msgid ""
 "Allows skilled Duplicants to add extra personal pizzazz to their wardrobe."
-msgstr ""
-"允許擁有技能的複製人為他們的衣櫥增添額外的個人魅力。\v(譯註: 不知道用在哪裡，"
-"看到請回報)"
+msgstr "允許複製人為他們的衣服增添一點額外的魅力。"
 
 #. STRINGS.BUILDINGS.PREFABS.CLOTHINGALTERATIONSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLOTHINGALTERATIONSTATION.EFFECT"
@@ -25672,14 +25670,6 @@ msgstr ""
 
 #. STRINGS.CODEX.MORALE.PARAGRAPH_3
 #, fuzzy
-#| msgctxt "STRINGS.CODEX.MORALE.PARAGRAPH_3"
-#| msgid ""
-#| "If a Duplicant has a very high Morale value, they will spontaneously "
-#| "display an Overjoyed Response. Each Duplicant has a different Overjoyed "
-#| "Behavior - but all overjoyed responses are good. Some will positively "
-#| "affect Building <style=\"KKeyword\">Decor</style>, others will positively "
-#| "affect Duplicant morale or productivity.\n"
-#| "\n"
 msgctxt "STRINGS.CODEX.MORALE.PARAGRAPH_3"
 msgid ""
 "If a Duplicant has a very high Morale value, they will spontaneously display "
@@ -25689,10 +25679,10 @@ msgid ""
 "or productivity.\n"
 "\n"
 msgstr ""
-"如果複製人的士氣非常高昂，他們會表示出士氣反應。\n"
-"每位複製人都有不同的開心行為－但是所有士氣反應都是好的。\n"
-"一些會對建築的 <style=\"KKeyword\">裝飾</style> 產生正面影響，其它則會對複製"
-"人的士氣與效率產生正面影響。\n"
+"如果複製人的士氣值非常高，他們會表現出高士氣反應。 每個複製人都有不同的高士氣"
+"行為——但所有高士氣的反應都是好的。 有些會對<link=\"DECOR\">裝飾</link>產生積"
+"極影響，另一些會對其他複製人的士氣或生產力產生積極影響。\n"
+"\n"
 "\n"
 
 #. STRINGS.CODEX.MORALE.TITLE
@@ -30522,16 +30512,15 @@ msgstr "抱抱的"
 
 #. STRINGS.CREATURES.MODIFIERS.EGGHUG.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOAKINGWET.TOOLTIP"
-#| msgid ""
-#| "This Duplicant was recently submerged in <style=\"KKeyword\">Liquid</"
-#| "style>"
 msgctxt "STRINGS.CREATURES.MODIFIERS.EGGHUG.TOOLTIP"
 msgid ""
 "This egg was recently hugged by an affectionate critter\n"
 "\n"
 "Increased <style=\"KKeyword\">Incubation Rate</style>"
-msgstr "此複製人浸在 <style=\"KKeyword\">液體</style> 中"
+msgstr ""
+"這個蛋最近被一隻深情的小動物擁抱了\n"
+"\n"
+"提高<style=\"KKeyword\">孵化率</style>"
 
 #. STRINGS.CREATURES.MODIFIERS.ELEMENT_GROWTH_RATE.NAME
 #, fuzzy
@@ -30635,14 +30624,6 @@ msgstr "搖籃曲"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.TOOLTIP"
-#| msgid ""
-#| "This egg was recently sung to by a kind Duplicant\n"
-#| "------------------\n"
-#| "Increased <style=\"KKeyword\">Incubation Rate</style>\n"
-#| "\n"
-#| "Duplicants must possess the <style=\"KKeyword\">Critter Ranching</style> "
-#| "Skill to sing to eggs"
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.TOOLTIP"
 msgid ""
 "This egg was recently sung to by a kind Duplicant\n"
@@ -30653,7 +30634,7 @@ msgid ""
 "Skill to sing to eggs"
 msgstr ""
 "這個蛋聽到了複製人的歌聲\n"
-"------------------\n"
+"\n"
 "增加 <style=\"KKeyword\">孵化率</style>\n"
 "\n"
 "複製人必須有 <style=\"KKeyword\">畜牧</style> 技能才能唱歌給蛋聽"
@@ -35041,7 +35022,7 @@ msgstr "計算蛋的數量"
 #, fuzzy
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HUGEGG.TOOLTIP"
 msgid "This critter is snuggling up to an <style=\"KKeyword\">Egg</style> "
-msgstr "這個小動物正在擁抱一個 <style=\"KKeyword\">蛋</style>"
+msgstr "這個小動物正在擁抱一個 <style=\"KKeyword\">蛋</style> "
 
 #. STRINGS.CREATURES.STATUSITEMS.HUGMINION.NAME
 #, fuzzy
@@ -37141,7 +37122,7 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.ANALYZESEED.TOOLTIP"
 msgid ""
 "This Duplicant is analyzing <style=\"KKeyword\">Seeds</style> to find "
 "mutations"
-msgstr "這個複制人正在分析 <style=\"KKeyword\">種子</style> 以尋找變種"
+msgstr "這個複製人正在分析 <style=\"KKeyword\">種子</style> 以尋找變種"
 
 #. STRINGS.DUPLICANTS.CHORES.ART.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.ART.NAME"
@@ -39251,7 +39232,7 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.UGLY_CRY.TOOLTIP"
 msgid ""
 "This Duplicant is having a healthy cry to alleviate their <style=\"KKeyword"
 "\">Stress</style>"
-msgstr "這個複制人正在用哭聲來緩解他們的 <style=\"KKeyword\">壓力</style>"
+msgstr "這個複製人正在用哭聲來緩解他們的 <style=\"KKeyword\">壓力</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.UNEQUIP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.UNEQUIP.NAME"
@@ -40635,7 +40616,7 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BANSHEE_WAILING.TOOLTIP"
 msgid ""
 "This Duplicant is wailing at the top of their lungs as a result of <style="
 "\"KKeyword\">Stress</style>"
-msgstr "由於<style=\"KKeyword\">壓力</style>，這個複制人正大聲哀號"
+msgstr "由於<style=\"KKeyword\">壓力</style>，這個複製人正大聲哀號"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BANSHEE_WAILING_RECOVERY.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BANSHEE_WAILING_RECOVERY.NAME"
@@ -41813,7 +41794,7 @@ msgid ""
 "This Duplicant had an extremely spicy meal and is both exhilarated and a "
 "little <style=\"KKeyword\">Stressed</style>"
 msgstr ""
-"這個複制人吃了一頓非常辣的飯，既興奮又有點<style=\"KKeyword\">壓力</style>"
+"這個複製人吃了一頓非常辣的飯，既興奮又有點<style=\"KKeyword\">壓力</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.HOTTUB.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HOTTUB.NAME"
@@ -41859,7 +41840,7 @@ msgid ""
 "\n"
 "It was so fluffy!"
 msgstr ""
-"這個複制人最近得到了一個友好小動物的擁抱\n"
+"這個複製人最近得到了一個友好小動物的擁抱\n"
 "\n"
 "太毛茸茸了！"
 
@@ -41908,7 +41889,7 @@ msgstr "約得爾歌唱"
 #. STRINGS.DUPLICANTS.MODIFIERS.ISJOYSINGER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ISJOYSINGER.TOOLTIP"
 msgid "This Duplicant is currently Yodeling!"
-msgstr "這個複制人目前正在進行約德爾歌唱！"
+msgstr "這個複製人目前正在進行約德爾歌唱！"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ISSPARKLESTREAKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ISSPARKLESTREAKER.NAME"
@@ -42363,7 +42344,7 @@ msgstr "玩電子遊戲"
 #. STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.TOOLTIP"
 msgid "This Duplicant recently played video games and is feeling like a champ"
-msgstr "這個複制人最近玩過電子遊戲，感覺自己很行"
+msgstr "這個複製人最近玩過電子遊戲，感覺自己很行"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PLAYEDSINGLEPLAYERARCADE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PLAYEDSINGLEPLAYERARCADE.NAME"
@@ -42377,7 +42358,7 @@ msgid ""
 "\n"
 "Score!"
 msgstr ""
-"這個複制人最近玩了有趣的遊戲\n"
+"這個複製人最近玩了有趣的遊戲\n"
 "\n"
 "太棒了！"
 
@@ -42468,7 +42449,7 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREEXTREME.TOOLTIP"
 msgid ""
 "Dangerously high <style=\"KKeyword\">Radiation</style> exposure is making "
 "this Duplicant wish they'd never been printed"
-msgstr "危險的高<style=\"KKeyword\">輻射</style>暴露讓這個複制人不想活了"
+msgstr "危險的高<style=\"KKeyword\">輻射</style>暴露讓這個複製人不想活了"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.NAME"
@@ -42480,7 +42461,7 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMAJOR.TOOLTIP"
 msgid ""
 "Significant <style=\"KKeyword\">Radiation</style> exposure has left this "
 "Duplicant totally exhausted"
-msgstr "嚴重的<style=\"KKeyword\">輻射</style>暴露讓這個複制人精疲力盡"
+msgstr "嚴重的<style=\"KKeyword\">輻射</style>暴露讓這個複製人精疲力盡"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RADIATIONEXPOSUREMINOR.NAME"
@@ -42707,7 +42688,7 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SANDBOXMORALEADJUSTMENT.TOOLTIP"
 msgid ""
 "This Duplicant has had their <style=\"KKeyword\">Morale</style> temporarily "
 "adjusted using the Sandbox tools"
-msgstr "使用沙盒工具臨時調整了這個複制人的 <style=\"KKeyword\">士氣</style>"
+msgstr "使用沙盒工具臨時調整了這個複製人的 <style=\"KKeyword\">士氣</style>"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SAUNA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SAUNA.NAME"
@@ -43154,7 +43135,7 @@ msgid ""
 "\n"
 "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgstr ""
-"這個複製人至少和另外一個複製人通了電話\n"
+"這個複製人和另外至少一個複製人通了電話\n"
 "\n"
 "休閒活動增加複製人的<style=\"KKeyword\">士氣</style>"
 
@@ -45025,7 +45006,7 @@ msgstr "分析植物基因"
 #, fuzzy
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGGENES.TOOLTIP"
 msgid "This Duplicant is peering deep into the genetic code of an odd seed"
-msgstr "這個複制人正在深入研究一個奇怪種子的遺傳密碼"
+msgstr "這個複製人正在深入研究一個奇怪種子的遺傳密碼"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ARTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ARTING.NAME"
@@ -46852,9 +46833,9 @@ msgid ""
 "Improve this Duplicant's <style=\"KKeyword\">Morale</style> before they "
 "start wailing uncontrollably"
 msgstr ""
-"這個複制人正在壓抑哀號的衝動\n"
+"這個複製人正在壓抑哀號的衝動\n"
 "------------------\n"
-"提高這個複制人的<style=\"KKeyword\">士氣</style>，以免他們開始失控地嚎啕大哭"
+"提高這個複製人的<style=\"KKeyword\">士氣</style>，以免他們開始失控地嚎啕大哭"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_BINGE_EAT.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_BINGE_EAT.NAME"
@@ -48649,7 +48630,7 @@ msgctxt "STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.DESC"
 msgid ""
 "This Duplicant belts out catchy tunes when they are <style=\"KKeyword"
 "\">Overjoyed</style>"
-msgstr "當他們<style=\"KKeyword\">高士氣</style>時，這個複制人會高興的歌唱"
+msgstr "當他們<style=\"KKeyword\">高士氣</style>時，這個複製人會高興的歌唱"
 
 #. STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HAPPYSINGER.NAME"
@@ -51246,9 +51227,9 @@ msgid ""
 "\n"
 "It is useful as a <link=\"REGOLITH\">Filtration Medium</link>."
 msgstr ""
-"表土是多種沙塵的混合物，可在星球表面獲得。\n"
+"表土是多種顆粒的混合物，可在星球表面獲得。\n"
 "\n"
-"它可作為 <style=\"REGOLITH\">過濾介質</style>。"
+"它可當成 <link=\"REGOLITH\">過濾介質</link>。"
 
 #. STRINGS.ELEMENTS.REGOLITH.NAME
 msgctxt "STRINGS.ELEMENTS.REGOLITH.NAME"
@@ -52259,7 +52240,7 @@ msgstr "減少隔熱，在 <style=\"heat\">熱</style> 的環境中保護穿載�
 #. STRINGS.EQUIPMENT.PREFABS.CUSTOMCLOTHING.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.CUSTOMCLOTHING.DESC"
 msgid "This transforms my Duplicant into a colony-inspiring fashion icon."
-msgstr "把複制人變成一個迷人的時尚偶像。"
+msgstr "把複製人變成一個迷人的時尚偶像。"
 
 #. STRINGS.EQUIPMENT.PREFABS.CUSTOMCLOTHING.EFFECT
 #, fuzzy
@@ -67792,13 +67773,6 @@ msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP
 #, fuzzy
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO"
-#| msgid ""
-#| "This critter can be sheared every <b>{Time}</b> to produce <style="
-#| "\"produced\">{Amount}</style> of <style=\"KKeyword\">{Item}</style>\n"
-#| "------------------\n"
-#| "It must be kept in <style=\"KKeyword\">{Atmosphere}</style>-rich "
-#| "environments to regrow sheared <style=\"KKeyword\">{Item}</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_TEMP"
 msgid ""
 "This critter can be sheared every <b>{Time}</b> to produce <style=\"produced"
@@ -67807,11 +67781,11 @@ msgid ""
 "It must eat food between {TempMin}-{TempMax} to regrow sheared <style="
 "\"KKeyword\">{Item}</style>"
 msgstr ""
-"此動物每 <b>{Time}</b> 可修剪，生產 <style=\"produced\">{Amount}</style> "
-"<style=\"KKeyword\">{Item}</style>\n"
+"這隻小動物可以每 <b>{Time}</b> 剪一次以產生 <style=\"produced\">{Amount}</"
+"style> 單位的 <style=\"KKeyword\">{Item}</style>\n"
 "------------------\n"
-"它必須在 <style=\"KKeyword\">{Atmosphere}</style> 含量高的環境中才會重新長回"
-"被剃掉的 <style=\"KKeyword\">{Item}</style>"
+"它必須在進食溫度在 {TempMin}-{TempMax} 之間的食物，才能再生剪過的 <style="
+"\"KKeyword\">{Item}</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
@@ -68313,14 +68287,6 @@ msgstr ""
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_NO_LAUNCH_PAD
 #, fuzzy
-#| msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_NO_LAUNCH_PAD"
-#| msgid ""
-#| "There is no <link=\"LAUNCHPLATFORM\">Rocket Platform</link> on this "
-#| "Planetoid for a rocket to land on\n"
-#| "\n"
-#| "Use a <link=\"PIONEERMODULE\">Trailblazer Module</link> or <link="
-#| "\"SCOUTMODULE\">Rover's Module</link> to deploy a scout and make first "
-#| "contact"
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_NO_LAUNCH_PAD"
 msgid ""
 "There is no <link=\"LAUNCHPAD\">Rocket Platform</link> on this Planetoid for "
@@ -68330,11 +68296,10 @@ msgid ""
 "\"SCOUTMODULE\">Rover's Module</link> to deploy a scout and make first "
 "contact"
 msgstr ""
-"此 <style=\"KKeyword\">小行星</style> 沒有 <link=\"LAUNCHPAD\">火箭平台</"
-"link> 可供火箭著陸\n"
+"這個小行星上沒有可供火箭降落的<link=\"LAUNCHPAD\">火箭平台</link>\n"
 "\n"
-"在首次接觸時使用 <link=\"PIONEERMODULE\">開拓者模組</link> 或 <link="
-"\"SCOUTMODULE\">漫遊者模組</link> 來部署一個漫遊者"
+"使用 <link=\"PIONEERMODULE\">開拓者模組</link> 或 <link=\"SCOUTMODULE\">漫遊"
+"者模組</link>，以跟小行星進行首次接觸"
 
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_NO_PATH
 #, fuzzy
@@ -91657,7 +91622,7 @@ msgctxt "STRINGS.UI.USERMENUACTIONS.ACCEPT_MUTANT_SEEDS.TOOLTIP"
 msgid ""
 "Toggle whether or not this building will accept <style=\"KKeyword\">Mutant "
 "Seeds</style> for recipes that could use them"
-msgstr "切換建築物是否接受突變種子用於製作訂單。"
+msgstr "切換建築物是否接受<style=\"KKeyword\">突變種子</style>用於製作物品"
 
 #. STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE
 msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE"
