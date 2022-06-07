@@ -41786,7 +41786,7 @@ msgstr "複製人覺得這頓辛辣的餐點很提神"
 #. STRINGS.DUPLICANTS.MODIFIERS.HOTSTUFF.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HOTSTUFF.NAME"
 msgid "Hot Stuff"
-msgstr "熱門"
+msgstr "辛辣"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.HOTSTUFF.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HOTSTUFF.TOOLTIP"
@@ -54829,11 +54829,9 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.CURRY.NAME
 #, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME"
-#| msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.NAME"
 msgid "<link=\"CURRY\">Curried Beans</link>"
-msgstr "<link=\"CARGOBAY\">貨艙</link>"
+msgstr "<link=\"CARGOBAY\">咖哩豆</link>"
 
 #. STRINGS.ITEMS.FOOD.CURRY.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.CURRY.RECIPEDESC"
